@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: node;
+    list-style-type: none;
+    outline: none;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+nav{
+    background-color: cadetblue;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 1.5rem;
+}
+.nav-link{
+    color: white;
+    margin: 0 2rem 0 0;
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    color: darkgreen;
+}
+.para{
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+h2{
+    text-align: center;
+    margin: 3rem;
+}
+table{
+    margin: 3rem;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid;
+    padding: 1rem;
+}
+img{
+    border-radius: 1rem;
+    width: 80vh;
+    height: 60vh;
+}
+button{
+    width: 5rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: green;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.form-field{
+    margin: 1rem;
+}
+input{
+    width: 20rem;
+    padding: 0.2rem;
+}
+
+.home-addBook{
+    font-size: 1.2rem;
+    background-color: cadetblue;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    margin: 0.5rem;
+    text-align: center;
+    width: 7rem;
+}
+.home-nav{
+    display:grid;
+    width: 8rem;
+
+}
+.addBook-footer{
+    padding: 1rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+footer{
+    background-color: antiquewhite;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
